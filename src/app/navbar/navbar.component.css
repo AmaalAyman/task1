@@ -1,0 +1,19 @@
+nav{
+    padding-left: 20px ;
+}
+
+.nav-link{
+    font-size: large;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+
+.btn{
+    background-color: #E6A4B4;
+}

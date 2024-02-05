@@ -1,0 +1,35 @@
+<div class="contact">
+    <h2 class="text">CONTACT SECTION</h2>
+      <i class="fa-solid fa-star " style="margin-left: 46%;"></i>
+      <i class="fa-solid fa-star "></i>
+      <i class="fa-solid fa-star "></i>
+</div>
+<br><br>
+<div class="container" >
+   <form>
+      <div class="mb-3">
+         <label class="form-label" *ngIf="user.length > 0" >userName:</label>      
+         <input #myName type="text" class="form-control" placeholder="userName:" (keyup)="userName(myName.value)" >
+        </div>
+       <br><br>
+       <div class="mb-3">
+        <label class="form-label" *ngIf="age.length > 0" >userAge:</label>      
+        <input #myAge type="text" class="form-control" placeholder="userAge:" (keyup)="userAge(myAge.value)" >
+       </div>
+       <br><br>
+      <div class="mb-3">
+        <label class="form-label" *ngIf="email.length > 0" >userEmail:</label>
+        <input #myEmail  type="email" class="form-control" placeholder="userEmail:" (keyup)="userEmail(myEmail.value)" >
+      </div>
+      <br><br>
+      <div class="mb-3">
+        <label class="form-label" *ngIf="pass.length > 0" >userPassword:</label>
+        <input #myPass type="password" class="form-control" placeholder="userPassword:" (keyup)="userPass(myPass.value)" >
+      </div>
+      <br><br>
+      <button type="submit" class="btn btn-primary">send Massege</button>
+    </form>
+<br>
+</div>
+
+

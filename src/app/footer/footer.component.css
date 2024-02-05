@@ -1,0 +1,40 @@
+.beforefooter{
+    background-color:#45474B;
+    padding: 60px 20px;
+    margin-top: -20px;
+}
+
+.card{
+    background-color:inherit;
+    border: none;
+    text-align: center;
+}
+
+.card-body{
+    color: white;
+}
+
+
+.copy{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 30px 20px;
+}
+
+.card-title{
+    font-size: 30px;
+}
+
+
+.bg-dark{
+    margin-bottom: -20px;
+}
+
+i{
+    background-color: inherit;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-left: 10px;
+}

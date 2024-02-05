@@ -1,0 +1,28 @@
+.about{
+    background-color:  #E6A4B4;
+    margin-top: -20px;
+    height: 500px;
+}
+
+.text{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 30px; 
+    padding-top: 120px; 
+  }
+
+
+  i{
+    display: inline-flex;
+    margin-left: 20px;
+  }
+
+
+  .col{
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: 500px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
